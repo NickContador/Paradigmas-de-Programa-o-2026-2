@@ -1,0 +1,1 @@
+# Paradigmas-de-Programa-o-2026-2
