@@ -1,0 +1,23 @@
+# Exercício 1 · Classe Aluno
+
+# Crie Aluno com nome e duas notas.
+# Implemente media(), que retorna a média das notas.
+# Crie dois objetos e exiba os nomes e as médias.
+# Teste: notas 8 e 6 devem produzir média 7.
+
+class Aluno:
+    def __init__(self, nome, nota1, nota2):
+        self.nome = nome
+        self.nota1 = nota1
+        self.nota2 = nota2
+
+    def media(self):
+        return (self.nota1 + self.nota2) / 2
+        
+# criando dois objetos da classe Aluno
+aluno_1 = Aluno("Carlos", 8, 6)
+aluno_2 = Aluno("Ana", 7, 9)
+
+# exibindo os nomes e as médias dos alunos
+print(f"Aluno: {aluno_1.nome}, Média: {aluno_1.media()}")
+print(f"Aluno: {aluno_2.nome}, Média: {aluno_2.media()}")
